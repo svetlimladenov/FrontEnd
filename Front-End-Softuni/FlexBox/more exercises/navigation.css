@@ -1,0 +1,26 @@
+.menu{
+
+}
+
+.menu li {
+    display: block;
+    list-style: none outside;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu a.fas {
+    font-family: inherit;
+}
+
+.menu a.fas::before {
+    font-family: "Font Awesome 5 Pro";
+    padding-right: 0.5rem;
+}

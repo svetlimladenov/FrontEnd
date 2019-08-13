@@ -1,0 +1,71 @@
+@import url("/Play/typography.css");
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+
+ 
+body{
+    height: 100vh;
+    background-image: url("/Play/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    border-bottom: 0.5px solid #fff;
+    align-items: center;
+    height: 8vh;
+}
+
+header .logo{
+    background-color: rgba(0,0,0,0.2);
+    width: 5vw;
+    height: 100%;
+}
+
+header .logo img{
+    width: 6.5rem;
+    padding: 1rem;
+    opacity: 100;
+}
+
+header .play{
+    padding-left: 2rem;
+}
+
+main{
+    display: flex;
+}
+
+main aside{
+    background-color: rgba(0,0,0,0.2);
+    width: 5vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 92vh;
+}
+
+main aside .menuButton{
+    font-size: 2rem; 
+    flex: 0 0 auto; 
+    padding: 1rem;
+}
+
+main aside .menuButton:last-child{
+    margin-top: auto;
+}

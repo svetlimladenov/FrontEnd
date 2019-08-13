@@ -1,0 +1,43 @@
+@import url('/layout.css');
+@import url('/typography.css');
+@import url('/header.css');
+@import url('/carousel.css');
+
+section.main-section{
+    padding: 10% 10%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.main-section .container{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #75757550;
+}
+
+.main-section h1,h2,h3,h4,h5,h6{
+    font-weight: 200;
+}
+
+.main-section p{
+    color: #757575;
+}
+
+.search-destination{
+    border:none;
+    color: #4a4a4a;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+.search-destination::placeholder{    
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 1.2rem;
+}
+
+
+.search-destination:focus{
+    text-align: center;
+    outline: none;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #4a4a4a;
+}

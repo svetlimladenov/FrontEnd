@@ -1,0 +1,51 @@
+.main-header{
+    background-image: url('/images/photo-1449034446853-66c86144b0ad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-header nav{
+    border-bottom: 1px solid #757575;
+}
+
+.main-header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header nav li{
+    flex: 0 1 auto;
+    display: block;
+    padding: 2rem 1rem;
+}
+
+.main-header nav a{
+    text-decoration: none;
+}
+
+.main-header .hotline{
+    margin-left: auto;
+}
+
+.main-header .hotline i{
+    padding-right: 0.5rem;  
+}
+
+.main-heading{
+    padding: 20% 1rem;
+    text-align: center;
+}
+
+.main-heading h1{
+    font-size: 5rem;
+}
+.main-heading button{
+    margin-top: 2rem;
+    background: #fbad27;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border:none;
+    padding: 0.7rem 3rem;
+    border-radius: 2.5rem;
+}

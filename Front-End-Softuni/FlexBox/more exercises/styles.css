@@ -1,0 +1,20 @@
+@import url('/layout.css');
+@import url('/typography.css');
+@import url('/navigation.css');
+body{
+
+}
+
+.menu a,
+.dash-title{
+    padding: 0.5rem 1rem;
+}
+
+
+.dash-header,
+.dash-footer,
+.dash-main-nav{
+    background: #333;
+    color: #fff;
+}
+

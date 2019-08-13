@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'csgoFont';
+    src: url("/Play/fonts/csgoFont.ttf");
+}
+
+body{
+    font: 16px/1.5 "csgoFont";
+    color: #fff;
+}
+
+h1{
+    font-size: 1.8rem;
+}

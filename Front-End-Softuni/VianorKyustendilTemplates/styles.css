@@ -1,0 +1,38 @@
+@import url('/typography.css');
+
+.container{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.site-header{
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    border-bottom : 1px solid #e5e5e5;
+}
+
+
+.site-header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header a{
+    text-decoration: none;
+}
+
+.site-header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.site-header nav ul li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 -4px 2px -2px rgba(0, 0, 0, 0.3);
+}

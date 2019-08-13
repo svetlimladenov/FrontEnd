@@ -1,0 +1,14 @@
+body{
+    padding: 1em 2em;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+article header{
+    color : #009;
+    border-bottom: 0.3em solid currentColor;
+}
+
+article footer{
+    border-bottom: 0.3em solid #009;
+}

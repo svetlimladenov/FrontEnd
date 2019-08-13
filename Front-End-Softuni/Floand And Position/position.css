@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 2rem;
+}
+
+.container{
+    background: #f00;
+    padding: 2rem;
+    height: 300vh;
+    position: relative;
+}
+
+.box{
+    width: 30vw;
+    height: 30vw;
+    background: #00F;
+    color:#fff;
+    padding: 2rem;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+}

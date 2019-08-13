@@ -1,0 +1,44 @@
+body {
+    padding: 2rem;
+}
+
+.site-header{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    
+    position: relative;
+}
+
+.site-header .search{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.site-content::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.main-content, .main-sidebar{
+    float: left;
+}
+
+
+.main-content{
+    width: 70%;
+    padding-right: 2rem;
+}
+
+.main-sidebar{
+    width: 29%;
+    vertical-align: top;
+    padding-right: 1rem;
+}

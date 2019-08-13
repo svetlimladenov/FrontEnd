@@ -1,0 +1,16 @@
+.search{
+    overflow: hidden;
+}
+
+.search header{
+    float: left;
+    padding-right: 1rem;
+}
+
+.search input{
+    padding: 0.5rem 1rem;
+    float: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+}

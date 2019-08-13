@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+    font: normal 16px/1.5 Helvetica, sans-serif;
+}
+
+body, form, input, button, table, textarea, select {
+    font: inherit
+}
+
+body{
+    padding: 2rem;
+    background: #EEEEEE;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+/* ul.gallery::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+} */
+
+ul.gallery li{  
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.4rem solid #000;
+    background: #fff;
+}
+
+ul.gallery li img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,13 @@
+.search{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 1.5rem;
+}

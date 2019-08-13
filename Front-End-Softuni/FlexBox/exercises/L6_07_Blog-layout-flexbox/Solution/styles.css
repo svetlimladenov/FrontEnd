@@ -1,0 +1,67 @@
+@import url("/L6_07_Blog-layout-flexbox/Solution/typography.css");
+
+body {
+    padding: 2rem;
+    background: rgb(238, 238, 238);
+}
+
+.page {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 0.2rem solid #000;
+}
+
+.site-main {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-posts {
+    flex: 0 1 60rem;
+}
+
+.site-sidebar {
+    flex: 0 0 20rem;
+}
+
+.sidebar-innermenu:not(:first-child) {
+    margin-top: 3rem;
+}
+
+.site-sidebar ul {
+    list-style-type: square;
+    padding-left: 3rem;
+}
+
+.site-sidebar ul li a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+.post::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+img.right-image {
+    background: white;
+    margin-left: 2rem;
+    float: right;
+    border: 0.2rem solid #000;
+    padding: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+    transition-duration: 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}

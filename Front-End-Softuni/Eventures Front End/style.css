@@ -1,0 +1,57 @@
+@import url('/typography.css');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-nav{
+    background: rgb(175, 238, 238);
+    margin-bottom: 2rem;
+}
+.site-nav .inner-menus{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.site-nav ul {
+    padding: 1rem;
+    display: flex;
+}
+
+.site-nav ul li{
+    display: block;
+}
+
+.site-nav ul li a{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.site-nav .menu-header{
+    font-weight: 900;
+}
+
+.welcome-box{
+    background: rgb(175, 238, 238);
+    padding: 4rem 2rem;
+}
+
+.welcome-box hr{
+    height: 2.5px;
+    background: #000;
+    border:none;
+    margin-bottom: 1rem;
+}
+
+.welcome-box a{
+    text-decoration: none;
+}
